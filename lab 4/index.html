@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NHL Standings</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+  <h2>NHL Standings</h2>
+  <table id="nhlStandings">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">Team</th>
+        <th onclick="sortTable(1)">GP</th>
+        <th onclick="sortTable(2)">W</th>
+        <th onclick="sortTable(3)">L</th>
+        <th onclick="sortTable(4)">OT</th>
+        <th onclick="sortTable(5)">PTS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table rows will be dynamically populated using JavaScript -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script> <!-- Linking the external JavaScript file -->
+</body>
+</html>
